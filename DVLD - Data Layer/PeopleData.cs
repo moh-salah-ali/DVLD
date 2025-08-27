@@ -47,7 +47,7 @@ namespace DVLD_DataLayer
                     
                     LastName = (string)reader["LastName"];
                     DateOfBirth = (DateTime)reader["DateOfBirth"];
-                    Gendor = (short)reader["Gendor"];
+                    Gendor = (byte)reader["Gendor"];
                     Address = (string)reader["Address"];
                     Phone = (string)reader["Phone"];
 
@@ -140,7 +140,7 @@ namespace DVLD_DataLayer
 
                     LastName = (string)reader["LastName"];
                     DateOfBirth = (DateTime)reader["DateOfBirth"];
-                    Gendor = (short)reader["Gendor"];
+                    Gendor = (byte)reader["Gendor"];
                     Address = (string)reader["Address"];
                     Phone = (string)reader["Phone"];
 
